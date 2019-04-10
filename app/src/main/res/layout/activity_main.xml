@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    tools:context=".MainActivity">
+
+
+
+
+
+
+
+
+
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+
+        <RelativeLayout
+            android:id="@+id/relab"
+            android:focusable="true"
+            android:focusableInTouchMode="true"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <requestFocus/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="30sp"
+                android:layout_marginTop="200sp"
+                android:text="Full Name"
+                android:textColor="@android:color/holo_green_light"
+                android:textSize="20sp" />
+
+            <EditText
+                android:id="@+id/name"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="30sp"
+                android:layout_marginTop="220sp"
+                android:hint="Enter phone or Email Here!!! "
+                android:textColor="#fff" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/name"
+                android:layout_marginLeft="30sp"
+                android:layout_marginTop="20sp"
+                android:text="Email"
+                android:textColor="@android:color/holo_green_light"
+                android:textSize="20sp" />
+
+            <EditText
+                android:id="@+id/email"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/name"
+                android:layout_marginLeft="30sp"
+                android:layout_marginTop="40sp"
+                android:hint="Enter Password Here!!! "
+                android:textColor="#fff" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/email"
+                android:layout_marginLeft="30sp"
+                android:layout_marginTop="20sp"
+                android:text="Phone Number"
+                android:textColor="@android:color/holo_green_light"
+                android:textSize="20sp" />
+
+            <EditText
+                android:id="@+id/phone"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/email"
+                android:layout_marginLeft="30sp"
+                android:layout_marginTop="40sp"
+                android:hint="Enter Phone Number Here!!! "
+                android:textColor="#fff" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/phone"
+                android:layout_marginLeft="30sp"
+                android:layout_marginTop="20sp"
+                android:text="Phone Number"
+                android:textColor="@android:color/holo_green_light"
+                android:textSize="20sp" />
+
+            <EditText
+                android:id="@+id/pass"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/phone"
+                android:layout_marginLeft="30sp"
+                android:layout_marginTop="40sp"
+                android:hint="Enter Password Here!!! "
+                android:textColor="#fff" />
+
+            <Button
+
+                android:id="@+id/signup_button"
+                android:layout_width="230sp"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/pass"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="40sp"
+
+                android:padding="15dp"
+                android:text="Sign Up" />
+
+
+
+        </RelativeLayout>
+
+    </ScrollView>
+
+
+
+
+
+
+</RelativeLayout>
